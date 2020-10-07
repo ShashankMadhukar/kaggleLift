@@ -30,6 +30,9 @@ l5kit==1.1.0
 MarkupSafe==1.1.1
 matplotlib==3.3.2
 mistune==0.8.4
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
 monotonic==1.5
 nbclient==0.5.0
 nbconvert==6.0.7
@@ -38,13 +41,14 @@ nest-asyncio==1.4.1
 notebook==6.1.4
 numcodecs==0.7.2
 numpy==1.19.2
+olefile==0.46
 opencv-contrib-python-headless==4.4.0.44
 packaging==20.4
 pandocfilters==1.4.2
 parso==0.7.1
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==7.2.0
+Pillow @ file:///opt/concourse/worker/volumes/live/05b3bc99-cf9f-44f2-42cf-267ed3a55922/volume/pillow_1594307311725/work
 prometheus-client==0.8.0
 prompt-toolkit==3.0.7
 protobuf==3.13.0
@@ -60,7 +64,8 @@ PyYAML==5.3.1
 pyzmq==19.0.2
 scipy==1.5.2
 Send2Trash==1.5.0
-six==1.15.0
+six @ file:///localdisk/tc/agent/work/77d6987f4a2d253e/conda-build/six_1593157960255/work
+TBB==0.1
 terminado==0.9.1
 testpath==0.4.4
 torch==1.6.0
